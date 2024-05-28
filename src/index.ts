@@ -139,6 +139,7 @@ const Main = async () => {
          await sleep(sleepMinutes * 60 * 1000); // Sleep
       } catch (e) {
          logger.error(e);
+         SendNotifcation(`Error: ${e}`);
 
          await Login(page);
       }

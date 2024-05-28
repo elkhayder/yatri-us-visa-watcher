@@ -1,0 +1,22 @@
+{
+   "name": "us-visa",
+   "version": "1.0.0",
+   "description": "",
+   "main": "src/index.ts",
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "axios": "^1.7.2",
+      "dotenv": "^16.4.5",
+      "puppeteer": "^22.10.0",
+      "winston": "^3.13.0"
+   },
+   "devDependencies": {
+      "ts-node": "^10.9.2",
+      "typescript": "^5.4.5"
+   }
+}
